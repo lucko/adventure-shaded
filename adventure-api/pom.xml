@@ -77,6 +77,17 @@
         </dependency>
         <dependency>
             <groupId>net.kyori</groupId>
+            <artifactId>adventure-text-minimessage</artifactId>
+            <version>${adventure.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.jetbrains</groupId>
+                    <artifactId>annotations</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>net.kyori</groupId>
             <artifactId>adventure-text-serializer-gson</artifactId>
             <version>${adventure.version}</version>
             <exclusions>

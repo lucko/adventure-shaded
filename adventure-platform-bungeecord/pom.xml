@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>adventure-platform-bungeecord</artifactId>
-    <version>4.21.0</version>
+    <version>4.21.1</version>
 
     <properties>
         <maven.deploy.skip>false</maven.deploy.skip>
@@ -37,6 +37,10 @@
                         <relocation>
                             <pattern>net.kyori.examination</pattern>
                             <shadedPattern>net.kyori.adventure.util.examination</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>net.kyori.option</pattern>
+                            <shadedPattern>net.kyori.adventure.util.option</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
